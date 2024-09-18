@@ -10,12 +10,10 @@ body {
 
 header {
     background-color: #333;
-    /* padding: 10px 0; */
     text-align: center; /*estilo de texto centrado*/
 }
 
 nav ul {
-    /* list-style: none; esto eliina los marcadores */
     margin: 0;
     padding: 0;
 }
@@ -40,15 +38,6 @@ nav ul li a {
     margin-top: 0;
 }
 
-.conocimientos ul {
-    list-style: none;
-    padding: 0;
-}
-
-.conocimientos ul li {
-    margin: 10px 0;
-}
-
 .proyectos .proyecto {
     background-color: #fff;
     padding: 20px;
@@ -70,9 +59,32 @@ nav ul li a {
     margin-top: 20px;
 }
 
-.iconos-conocimientos img {
-    width: 70px; /* Ajusta el tamaño de las imágenes */
-    height: 70px; /* Ajusta el tamaño de las imágenes */
-    object-fit: contain; /* Mantiene la proporción original de las imágenes */
-    transition: transform 0.3s; /* Transición para el efecto hover */
+/* Estilos del Formulario de Contacto */
+.contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.contacto form label {
+    display: block;
+    margin-top: 10px;
+}
+
+
+.contacto form textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.contacto form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.contacto form button:hover {
+    background-color: #555;
 }

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portfolio</title>
     <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <!-- Menú - esta estrcutura de nav-u1 y li me permiten hacer los botones para navegar -->
@@ -15,13 +16,13 @@
                 <li><a href="#sobre-mi">Sobre Mí</a></li>
                 <li><a href="#conocimientos">Conocimientos</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
-                <!-- <li><a href="#contacto">Contacto</a></li> -->
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Sección de Presentación -->
-    <section id="inicio" class="section inicio">
+    <section id="inicio" class="section inicio"> <!--ponerle a todos los bloques class ="". Esto es para en el CSS asignarle estilos especificos-->>
         <div class="contenido-inicio">
             <img src="https://media.licdn.com/dms/image/C4D03AQGKhRROxv6SrA/profile-displayphoto-shrink_200_200/0/1638298406130?e=2147483647&v=beta&t=bf1BQob0DBwdohPy29AsZ-gpzJUmrJbYVsQK92_GSW8" alt="Foto de presentación">
             <h1>Hola! Soy Sasha Franco</h1>
@@ -72,7 +73,22 @@
         <a href="https://github.com/SashaFranco" target="_blank">GitHub</a>
     </section>
 
-    <!-- JavaScript para el formulario -->
-    <script src="script.js"></script>
+    <!-- Formulario de Contacto -->
+<section id="contacto" class="section contacto">
+    <h2>Contacto</h2>
+    <form id="contacto">
+        <label>Nombre:</label>
+        <input type="text" id="nombre" name="nombre"> 
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"> <!-- el type aca hace que deba escribir un email si o si -->
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+        
+        <button onclick="enviar()" >Enviar</button>
+    </form>
+</section>
+
 </body>
 </html>
