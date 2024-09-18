@@ -47,24 +47,15 @@ nav ul li a {
 .redes a {
     display: block;
     margin: 10px 0;
-    text-decoration: none;
     color: #333;
-}
-
-.iconos-conocimientos {
-    display: flex;
-    justify-content: center; /* Centra las imágenes horizontalmente */
-    flex-wrap: wrap; /* Permite que las imágenes se ajusten en varias líneas si es necesario */
-    gap: 20px; /* Espaciado entre imágenes */
-    margin-top: 20px;
 }
 
 /* Estilos del Formulario de Contacto */
 .contacto form {
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
     background-color: #fff;
-    padding: 20px;
+    padding: 30px;
 }
 
 .contacto form label {
@@ -72,7 +63,7 @@ nav ul li a {
     margin-top: 10px;
 }
 
-
+.contacto form input,
 .contacto form textarea {
     width: 100%;
     padding: 10px;
