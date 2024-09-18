@@ -36,13 +36,6 @@ nav ul li a {
     text-align: center;
 }
 
-/* .inicio img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-} */
-
 .inicio h1 {
     margin-top: 0;
 }
@@ -60,7 +53,6 @@ nav ul li a {
     background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .redes a {
@@ -68,39 +60,6 @@ nav ul li a {
     margin: 10px 0;
     text-decoration: none;
     color: #333;
-}
-
-form {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-form label {
-    display: block;
-    margin-top: 10px;
-}
-
-form input,
-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-}
-
-form button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #555;
 }
 
 .iconos-conocimientos {
