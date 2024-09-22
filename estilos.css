@@ -2,7 +2,6 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0; /*Esto hace que no tenga margenes*/
-    /* padding: 0;  */
     background-color: #f4f4f4;
     color: #333;
 }
@@ -15,7 +14,7 @@ header {
 
 nav ul {
     margin: 0;
-    padding: 0;
+    padding: 0; /*padding son los espacios superiores e inferiores*/
 }
 
 nav ul li {
@@ -29,6 +28,7 @@ nav ul li a {
 }
 
 /* esto hace que todas las secciones que haga esten centradas */
+/* la notacion con punto me permite aplicarle el estilo a los bloques con class */
 .section {
     padding: 40px 20px;
     text-align: center;
@@ -45,7 +45,6 @@ nav ul li a {
 }
 
 .redes a {
-    display: block;
     margin: 10px 0;
     color: #333;
 }
@@ -63,8 +62,9 @@ nav ul li a {
     margin-top: 10px;
 }
 
-.contacto form input,
-.contacto form textarea {
+/*se puede aplicar el mismo estilo agrupandolos con coma*/
+.contacto form input, /*formate de los elementos impus*/
+.contacto form textarea /*formate del cuadro de texto*/ {
     width: 100%;
     padding: 10px;
 }
